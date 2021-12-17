@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  min-width: 100%;
+}
+
+/* .border {
+  border: 2px solid grey;
+} */
+
+.collapse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+h3 {
+  color: red;
+}
